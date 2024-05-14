@@ -1,0 +1,1 @@
+import{af as o}from"./index.78a9f0bb.js";import{O as r}from"./records.35358e58.js";const c=async()=>{if(o(r).season)return o(r);const a=await fetch("https://api.sleeper.app/v1/state/nfl",{compress:!0}).catch(e=>{console.error(e)}),t=await a.json().catch(e=>{console.error(e)});if(a.ok)return r.update(()=>t),t;throw new Error(t)};export{c as g};
