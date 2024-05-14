@@ -56,12 +56,12 @@
     }
 
     .home-img {
-        max-width: 400px;
-        min-width: 400px;
-        max-height: 300px;
+        max-width: 450px;
+        min-width: 300px;
+        max-height: 500px;
         display: block;
         margin: 0 auto;
-        margin-bottom: 2.5rem;
+        margin-bottom: 3.5rem;
     }
 
     .transactions {
@@ -163,7 +163,9 @@
             <img src="/bron.png" class="home-img" alt="">
             <img src="/rool.png" class="home-img" alt="">
             <img src="/steelers.jpg" class="home-img" alt="">
+            <img src="/edgy.png" class="home-img" alt="">
             <img src="/lean.png" class="home-img" alt="">
+            <img src="/kobe.jpg" class="home-img" alt="">
             {@html homepageText }
             <!-- Most recent Blog Post (if enabled) -->
             {#if enableBlog}
