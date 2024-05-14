@@ -55,6 +55,15 @@
         }
     }
 
+    .home-img {
+        max-width: 400px;
+        min-width: 400px;
+        max-height: 300px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 2.5rem;
+    }
+
     .transactions {
         display: block;
         width: 95%;
@@ -134,13 +143,27 @@
 		color: #bbb;
 		font-style: italic;
 	}
+
+    @media (max-width: 900px) {
+        .home-img {
+            max-width: 320px !important;
+            min-width: 320px !important;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+        }
+    }
+
 </style>
 
 <div id="home">
     <div id="main">
         <div class="text">
             <h6>{leagueName}</h6>
-            <!-- homepageText contains the intro text for your league, this gets edited in /src/lib/utils/leagueInfo.js -->
+            <img src="/bron.png" class="home-img" alt="">
+            <img src="/rool.png" class="home-img" alt="">
+            <img src="/steelers.jpg" class="home-img" alt="">
+            <img src="/lean.png" class="home-img" alt="">
             {@html homepageText }
             <!-- Most recent Blog Post (if enabled) -->
             {#if enableBlog}
