@@ -1,11 +1,13 @@
 @use 'sass:color';
 
+
+
 @use '@material/theme/color-palette';
 
 // Svelte Colors!
 @use '@material/theme/index' as theme with (
-  $primary: #51B59A,
-  $secondary: #75C4AF,
+  $primary: #25b084,
+  $secondary: #30d09d,
   $surface: #fff,
   $background: #fff,
   $error: color-palette.$red-900,
@@ -65,8 +67,8 @@
   --fadeTwo: rgba(255, 255, 255, 0.7) 50%;
   --fadeThree: rgba(255, 255, 255, 0.9) 90%;
   --fadeFour: rgba(255, 255, 255, 1) 100%;
-  --blueOne: #51B59A;
-  --blueTwo: #75C4AF;
+  --blueOne: #30d09d;
+  --blueTwo: #30d09d;
   --r1: #f7f9fd;
   --r2: #fbf7f7;
   --r3: #f7fbf7;
@@ -184,10 +186,10 @@ strong {
 }
 
 a {
-  color: #51B59A;
+  color: #25b084;
 }
 a:visited {
-  color: color.scale(#51B59A, $lightness: -35%);
+  color: color.scale(#25b084, $lightness: -35%);
 }
 
 .mdc-button--outlined:not(:disabled) {

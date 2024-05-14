@@ -40,13 +40,13 @@
 
 <style>
     :global(.button) {
-        color: #51B59A;
+        color: #25b084;
         cursor: pointer;
         vertical-align: sub;
     }
 
     :global(.button:hover) {
-        color: #51B59A;
+        color: #25b084;
     }
 
     .paginationBar {
@@ -75,11 +75,11 @@
     }
 
     .dest:hover {
-        color: #51B59A;
+        color: #25b084;
     }
 
     .selected {
-        color: #51B59A;
+        color: #25b084;
         cursor: default;
         user-select: none;
     }
