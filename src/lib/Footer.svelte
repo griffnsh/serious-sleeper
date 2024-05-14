@@ -55,7 +55,7 @@
         position: absolute;
         bottom: 0;
 		z-index: 1;
-		border-top: 1px solid #920505;
+		border-top: 1px solid #51B59A;
 		padding: 30px 0 60px;
 		text-align: center;
 		color: #777;
@@ -86,7 +86,7 @@
 	}
 
 	.navLink:hover {
-		color: #920505;
+		color: #51B59A;
 	}
 
 	.updateNotice {
@@ -123,12 +123,4 @@
 			{/each}
 		</ul>
 	</div>
-	<!-- PLEASE DO NOT REMOVE THE COPYRIGHT -->
-	<span class="copyright">&copy; 2021 - {year} <a href="https://github.com/nmelhado/league-page">League Page</a></span>
-	<br />
-	<!-- PLEASE DO NOT REMOVE THE BUILT BY -->
-	<span class="creator">Built by <a href="http://www.nmelhado.com/">Nicholas Melhado</a><br /></span>
-	<!-- You can remove the donation link (although any donations to help
-	 maintain and enhance League Page would be greatly appreciated!) -->
-	Love League Page? Please consider <a href="https://www.buymeacoffee.com/nmelhado">donating</a> to support enhancements or just to say thank you!
 </footer>

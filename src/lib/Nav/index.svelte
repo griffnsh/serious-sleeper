@@ -36,13 +36,14 @@
 	a {
 		display: table;
     	margin: 0 auto;
+		color: #51B59A;
 	}
 	nav {
 		background-color: var(--fff);
 		position: relative;
 		z-index: 2;
-		border-bottom: 1px solid #00316b;
-		box-shadow: 0 0 8px 0 #00316b;
+		border-bottom: 1px solid #006b5b;
+		box-shadow: 0 0 8px 0 #006b5b;
 	}
 
 	#logo {
@@ -67,7 +68,7 @@
 	}
 
 	:global(.lightDark) {
-		color: var(--g555)
+		color: var(--g555);
 	}
 
 	@media (max-width: 950px) { /* width of the large navBar */
@@ -82,7 +83,7 @@
 </style>
 
 <nav>
-	<a href="/"><img id="logo" alt="league logo" src="/badge.png" /></a>
+	<a href="/"><img id="logo" alt="league logo" src="/serious-logo-no-bg.png" /></a>
 
 	<div class="container">
 		<IconButton

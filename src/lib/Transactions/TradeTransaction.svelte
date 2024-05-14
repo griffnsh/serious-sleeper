@@ -23,8 +23,8 @@
         border-radius: 50%;
         height: 40px;
         width: 40px;
-        border: 2px solid var(--blueOne);
-        background-color: var(--fff);
+        border: 2px solid #51B59A;
+        background-color: #51B59A;
     }
 
     .ownerName {
@@ -52,7 +52,7 @@
         padding: 0.7em 0 1em;
         background-color: var(--fff);
         border-radius: 0 0 0 40px;
-        border-left: 2px solid var(--blueOne);
+        border-left: 2px solid #51B59A;
         border-right: 1px solid var(--ddd);
         margin-bottom: 3em;
     }
@@ -71,9 +71,9 @@
 
     tbody {
         background-color: var(--fff);
-        border-top: 2px solid var(--blueOne);
-        border-left: 2px solid var(--blueOne);
-        border-right: 1px solid var(--ddd);
+        border-top: 2px solid #51B59A;
+        border-left: 2px solid #51B59A;
+        border-right: 1px solid #51B59A;
     }
 
     .holder {

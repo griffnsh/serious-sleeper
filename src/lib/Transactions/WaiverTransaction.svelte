@@ -30,7 +30,7 @@
         flex-direction: column;
         border-radius: 0 0 0 40px;
         border: 1px solid var(--ddd);
-        border-left: 2px solid var(--blueTwo);
+        border-left: 2px solid #51B59A;
         border-bottom: none;
         background-color: var(--fff);
     }
@@ -49,13 +49,13 @@
         border-radius: 50%;
         height: 40px;
         width: 40px;
-        border: 2px solid var(--blueTwo);
+        border: 2px solid #51B59A;
         background-color: var(--fff);
     }
 
     .ownerName {
         display: inline-block;
-        border-bottom: 2px solid var(--blueTwo);
+        border-bottom: 2px solid #51B59A;
         margin: 0 0 0 22px;
         padding-right: 30px;
         padding-left: 30px;

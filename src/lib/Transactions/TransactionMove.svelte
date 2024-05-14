@@ -123,7 +123,7 @@
         border: 2px solid;
         border-radius: 100%;
         position: relative;
-        border-color: var(--aaa);
+        border-color: #51B59A;
         background-color: var(--eee);
     }
 
